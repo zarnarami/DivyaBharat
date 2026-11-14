@@ -1,0 +1,150 @@
+/* JammuPage.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.jammu-page{
+  width:100%;
+  min-height:100vh;
+
+  background:#fff8f4;
+
+  font-family:'Cormorant Garamond', serif;
+}
+
+/* HERO */
+
+.jammu-hero{
+  position:relative;
+
+  width:100%;
+  height:700px;
+
+  overflow:hidden;
+}
+
+.jammu-hero img{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+}
+
+.hero-overlay{
+  position:absolute;
+  inset:0;
+
+  background:
+  linear-gradient(
+    to top,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.1)
+  );
+}
+
+.hero-text{
+  position:absolute;
+
+  left:80px;
+  bottom:80px;
+
+  z-index:5;
+
+  color:white;
+}
+
+.hero-text h1{
+  font-size:90px;
+
+  line-height:1;
+}
+
+.hero-text p{
+  margin-top:15px;
+
+  font-size:38px;
+}
+
+/* CONTENT */
+
+.jammu-content{
+  width:100%;
+  max-width:1200px;
+
+  margin:auto;
+
+  padding:80px 30px;
+}
+
+.jammu-content section{
+  margin-bottom:70px;
+}
+
+.jammu-content h2{
+  font-size:58px;
+
+  color:#7a2d18;
+
+  margin-bottom:25px;
+}
+
+.jammu-content p{
+  font-size:30px;
+
+  line-height:1.8;
+
+  color:#4b352d;
+
+  margin-bottom:20px;
+}
+
+.jammu-content ul{
+  padding-left:30px;
+}
+
+.jammu-content li{
+  font-size:30px;
+
+  margin-bottom:15px;
+
+  color:#4b352d;
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+  .jammu-hero{
+    height:420px;
+  }
+
+  .hero-text{
+    left:25px;
+    bottom:25px;
+  }
+
+  .hero-text h1{
+    font-size:42px;
+  }
+
+  .hero-text p{
+    font-size:20px;
+  }
+
+  .jammu-content{
+    padding:50px 20px;
+  }
+
+  .jammu-content h2{
+    font-size:34px;
+  }
+
+  .jammu-content p,
+  .jammu-content li{
+    font-size:20px;
+  }
+
+}

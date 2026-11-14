@@ -1,0 +1,263 @@
+/* src/pages/StatesPage.css */
+.db-states-page { min-height: 100vh; background: #fdf3ed; display: flex; flex-direction: column; }
+
+.db-states-hero {
+  background: linear-gradient(135deg, #fdf3ed 0%, #f5e4d7 60%, #efd8c4 100%);
+  padding: 110px 40px 50px;
+  border-bottom: 1px solid rgba(230, 171, 130, 0.2);
+}
+
+.db-states-hero-inner { max-width: 800px; margin: 0 auto; text-align: center; }
+
+.db-states-hero-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #a07060;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.db-states-hero-inner h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 52px;
+  font-weight: 700;
+  color: #3c1f16;
+  margin-bottom: 14px;
+}
+
+.db-states-hero-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #7a5040;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.db-states-search {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 1.5px solid rgba(230, 171, 130, 0.4);
+  box-shadow: 0 4px 20px rgba(120, 60, 30, 0.06);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.db-states-search-icon { color: #a07060; flex-shrink: 0; }
+
+.db-states-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #5a3020;
+  background: transparent;
+}
+
+.db-states-search input::placeholder { color: #b09080; }
+
+.db-states-clear {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #a07060;
+  font-size: 16px;
+}
+
+.db-states-region-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.db-states-region-tab {
+  padding: 7px 16px;
+  border-radius: 50px;
+  border: 1.5px solid rgba(230, 171, 130, 0.35);
+  background: transparent;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a5040;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.db-states-region-tab:hover { background: rgba(230, 171, 130, 0.1); }
+
+.db-states-region-tab.active {
+  background: linear-gradient(to right, #e6ab82, #efb0b4);
+  color: white;
+  border-color: transparent;
+}
+
+/* MAIN */
+.db-states-main { flex: 1; max-width: 1440px; margin: 0 auto; width: 100%; padding: 32px 40px 60px; }
+
+.db-states-count {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #8a6050;
+  margin-bottom: 24px;
+}
+
+.db-states-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* STATE CARD */
+.db-state-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(230, 171, 130, 0.2);
+  box-shadow: 0 4px 20px rgba(120, 60, 30, 0.07);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.db-state-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(120, 60, 30, 0.15);
+}
+
+.db-state-card-img-wrap {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.db-state-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.db-state-card:hover .db-state-card-img { transform: scale(1.05); }
+
+.db-state-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(40,15,5,0.55) 0%, transparent 60%);
+}
+
+.db-state-card-region {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.3);
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.db-state-card-emblem-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff8f2 30%, #fae6d5 100%);
+  border: 1.5px solid rgba(201, 154, 107, 0.6);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  backdrop-filter: blur(6px);
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.db-state-card:hover .db-state-card-emblem-badge {
+  transform: scale(1.1) rotate(2deg);
+}
+
+.db-state-card-emblem-badge .temple-emblem-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.db-state-card-arch {
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  color: #c99a6b;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.db-state-card-body { padding: 18px; }
+
+.db-state-card-body h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #3c1f16;
+  margin-bottom: 5px;
+}
+
+.db-state-card-capital {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  color: #a07060;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.db-state-card-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #6a4030;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.db-state-card-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #e6ab82, #efb0b4);
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.db-state-card-btn:hover { transform: translateY(-1px); }
+
+@media (max-width: 768px) {
+  .db-states-hero { padding: 100px 20px 40px; }
+  .db-states-hero-inner h1 { font-size: 36px; }
+  .db-states-main { padding: 24px 20px 40px; }
+  .db-states-grid { grid-template-columns: 1fr; }
+}

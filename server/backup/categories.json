@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "6ac526ea510fd149764d05c5",
+    "name": "Monument",
+    "description": "Historic structures, forts, palaces, tombs, and architectural marvels that represent India's glorious past.",
+    "image": "",
+    "icon": "🏛️",
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.446Z",
+    "updatedAt": "2026-10-06T16:50:50.446Z"
+  },
+  {
+    "_id": "6ac526ea510fd149764d05c6",
+    "name": "Temple",
+    "description": "Ancient and medieval Hindu, Jain, and Buddhist temples representing India's profound spiritual and architectural traditions.",
+    "image": "",
+    "icon": "🛕",
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.447Z",
+    "updatedAt": "2026-10-06T16:50:50.447Z"
+  },
+  {
+    "_id": "6ac526ea510fd149764d05c7",
+    "name": "Historical Place",
+    "description": "Sites of significant historical events, ancient cities, and locations that shaped the course of Indian history.",
+    "image": "",
+    "icon": "🗺️",
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.447Z",
+    "updatedAt": "2026-10-06T16:50:50.447Z"
+  },
+  {
+    "_id": "6ac526ea510fd149764d05c8",
+    "name": "Festival",
+    "description": "Traditional celebrations, religious observances, and cultural festivals that bring communities together across India.",
+    "image": "",
+    "icon": "🎊",
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.447Z",
+    "updatedAt": "2026-10-06T16:50:50.447Z"
+  },
+  {
+    "_id": "6ac526ea510fd149764d05c9",
+    "name": "Tradition",
+    "description": "Living traditions, customs, rituals, and practices passed down through generations that form the cultural fabric of India.",
+    "image": "",
+    "icon": "🪔",
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.447Z",
+    "updatedAt": "2026-10-06T16:50:50.447Z"
+  },
+  {
+    "_id": "6ac526ea510fd149764d05ca",
+    "name": "Art Form",
+    "description": "Classical dance, music, painting, sculpture, and performing arts that are recognized as India's intangible cultural heritage.",
+    "image": "",
+    "icon": "🎭",
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.447Z",
+    "updatedAt": "2026-10-06T16:50:50.447Z"
+  },
+  {
+    "_id": "6ac526ea510fd149764d05cb",
+    "name": "Natural Heritage",
+    "description": "Forests, wildlife sanctuaries, biosphere reserves, and natural landscapes that are integral to India's cultural identity.",
+    "image": "",
+    "icon": "🌿",
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.447Z",
+    "updatedAt": "2026-10-06T16:50:50.447Z"
+  }
+]

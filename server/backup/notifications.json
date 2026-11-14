@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "6ac535c694ac793d0c9cb9e8",
+    "title": "Welcome to DivyaBharat Heritage Portal",
+    "message": "Explore over 300 sacred temples, royal citadels, and living traditions across all 28 states and 8 union territories.",
+    "type": "info",
+    "icon": "temple",
+    "link": "/temples",
+    "targetRole": "all",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T17:54:14.506Z",
+    "updatedAt": "2026-10-06T17:54:39.155Z"
+  },
+  {
+    "_id": "6ac535c694ac793d0c9cb9e9",
+    "title": "Sacred Jyotirlinga Darshan Timings Updated",
+    "message": "Live daily aarti timings, abhishekam rituals, and pilgrim guidelines for Somnath, Kashi Vishwanath, and Mahakaleshwar are now live.",
+    "type": "festival",
+    "icon": "festival",
+    "link": "/temples",
+    "targetRole": "all",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T17:54:14.507Z",
+    "updatedAt": "2026-10-31T15:03:23.809Z"
+  },
+  {
+    "_id": "6ac535c694ac793d0c9cb9ea",
+    "title": "UNESCO World Heritage Exploration",
+    "message": "Discover ancient rock-cut architecture of Ellora, Sun Temple Konark, and the majestic forts of Rajasthan.",
+    "type": "heritage",
+    "icon": "heritage",
+    "link": "/heritage",
+    "targetRole": "all",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T17:54:14.507Z",
+    "updatedAt": "2026-10-31T15:03:23.816Z"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "6ac526ea510fd149764d0625",
+    "title": "Indian Heritage: Basics Quiz",
+    "description": "Test your knowledge of Indian heritage, monuments, and UNESCO World Heritage Sites.",
+    "module": "6ac526ea510fd149764d0618",
+    "category": "General",
+    "questions": [
+      {
+        "question": "In which year was Konark Sun Temple inscribed as a UNESCO World Heritage Site?",
+        "options": [
+          "1983",
+          "1984",
+          "1986",
+          "1992"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Konark Sun Temple was inscribed as a UNESCO World Heritage Site in 1984. It was built by King Narasimhadeva I of the Eastern Ganga dynasty around 1250 CE.",
+        "_id": "6ac526ea510fd149764d0626"
+      },
+      {
+        "question": "The Qutb Minar in Delhi was begun by which ruler?",
+        "options": [
+          "Akbar",
+          "Iltutmish",
+          "Qutb ud-Din Aibak",
+          "Muhammad bin Tughluq"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Qutb Minar was begun around 1193 CE by Qutb ud-Din Aibak, the founder of the Delhi Sultanate (Slave Dynasty). It was completed by his successor Iltutmish.",
+        "_id": "6ac526ea510fd149764d0627"
+      },
+      {
+        "question": "Which ancient civilization site in Gujarat, inscribed as UNESCO WHS in 2021, is part of the Indus Valley Civilization?",
+        "options": [
+          "Lothal",
+          "Dholavira",
+          "Rajkot",
+          "Vadnagar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholavira, located on Khadir Island in the Rann of Kutch, Gujarat, was inscribed as a UNESCO World Heritage Site in 2021. It is one of the largest cities of the Indus Valley Civilization (3000-1500 BCE).",
+        "_id": "6ac526ea510fd149764d0628"
+      },
+      {
+        "question": "How many UNESCO World Heritage Sites does India have (as of 2024)?",
+        "options": [
+          "32",
+          "38",
+          "40",
+          "42"
+        ],
+        "correctAnswer": 3,
+        "explanation": "India has 42 UNESCO World Heritage Sites as of 2024, making it the sixth country globally by number of World Heritage Sites. These include 34 cultural, 7 natural, and 1 mixed site.",
+        "_id": "6ac526ea510fd149764d0629"
+      },
+      {
+        "question": "The Ajanta Caves were rediscovered in 1819 by which British officer?",
+        "options": [
+          "Captain James Tod",
+          "John Smith",
+          "Alexander Cunningham",
+          "Henry Taylor"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Ajanta Caves were rediscovered in 1819 by British Army officer John Smith, who was on a tiger hunt. The caves had been abandoned since approximately the 7th century CE.",
+        "_id": "6ac526ea510fd149764d062a"
+      },
+      {
+        "question": "Which festival of India was recognized as UNESCO Intangible Cultural Heritage in 2021?",
+        "options": [
+          "Onam",
+          "Kumbh Mela",
+          "Durga Puja",
+          "Navratri"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Durga Puja in Kolkata was inscribed in UNESCO's Representative List of Intangible Cultural Heritage of Humanity in 2021. Kumbh Mela was inscribed in 2017.",
+        "_id": "6ac526ea510fd149764d062b"
+      },
+      {
+        "question": "The stone chariot at which South Indian temple complex is featured on the Indian 50-rupee note?",
+        "options": [
+          "Meenakshi Temple",
+          "Vittala Temple, Hampi",
+          "Brihadeeswarar Temple",
+          "Shore Temple"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The stone chariot at the Vittala Temple in Hampi (Karnataka) is featured on the Indian 50-rupee note. Hampi was the capital of the Vijayanagara Empire (14th-16th centuries CE).",
+        "_id": "6ac526ea510fd149764d062c"
+      },
+      {
+        "question": "The Rani-ki-Vav stepwell in Gujarat was built by whom and in whose memory?",
+        "options": [
+          "Queen Udayamati in memory of King Bhimdev I",
+          "Queen Padmavati in memory of King Ratan Singh",
+          "Queen Ahilyabai in memory of King Malharrao",
+          "Queen Nur Jahan in memory of Emperor Jahangir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Rani-ki-Vav was built by Queen Udayamati around 1063 CE in memory of her husband King Bhimdev I of the Solanki dynasty. It is a UNESCO World Heritage Site since 2014 and features on the Rs. 100 note.",
+        "_id": "6ac526ea510fd149764d062d"
+      },
+      {
+        "question": "Which classical dance form of India originates from the devadasi tradition in Tamil Nadu?",
+        "options": [
+          "Kathakali",
+          "Odissi",
+          "Bharatanatyam",
+          "Manipuri"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bharatanatyam originated from the devadasi tradition in Tamil Nadu's temples, particularly in the Thanjavur region. It is named after Bharata Muni, the author of the Natya Shastra. Rukmini Devi Arundale revived it as a concert stage art form.",
+        "_id": "6ac526ea510fd149764d062e"
+      },
+      {
+        "question": "The Ellora Caves, a UNESCO WHS, represent the coexistence of which three religious traditions?",
+        "options": [
+          "Hinduism, Buddhism, Jainism",
+          "Hinduism, Buddhism, Islam",
+          "Buddhism, Jainism, Islam",
+          "Hinduism, Jainism, Sikhism"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Ellora Caves (100 monuments total) represent three religious traditions: Buddhist caves (1-12), Hindu caves (13-29), and Jain caves (30-34). This remarkable co-existence demonstrates ancient India's spirit of religious tolerance.",
+        "_id": "6ac526ea510fd149764d062f"
+      }
+    ],
+    "passingScore": 60,
+    "timeLimit": 0,
+    "isPublished": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.508Z",
+    "updatedAt": "2026-10-06T16:50:50.508Z"
+  },
+  {
+    "_id": "6ac526ea510fd149764d0630",
+    "title": "Mughal Architecture Quiz",
+    "description": "Test your knowledge of the magnificent architecture of the Mughal Empire in India.",
+    "module": "6ac526ea510fd149764d061c",
+    "category": "Monument",
+    "questions": [
+      {
+        "question": "Fatehpur Sikri was built by which Mughal Emperor and in which period?",
+        "options": [
+          "Babur (1526-1530)",
+          "Humayun (1530-1555)",
+          "Akbar (1571-1585)",
+          "Shah Jahan (1632-1648)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Fatehpur Sikri was built by Emperor Akbar between 1571 and 1585 CE as his new imperial capital, located 37 km from Agra. It was abandoned after approximately 14 years, possibly due to water scarcity.",
+        "_id": "6ac526ea510fd149764d0631"
+      },
+      {
+        "question": "The Buland Darwaza at Fatehpur Sikri is considered the largest gateway in the world. How tall is it?",
+        "options": [
+          "34 metres",
+          "44 metres",
+          "54 metres",
+          "64 metres"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Buland Darwaza (Gate of Victory) at Fatehpur Sikri is 54 metres (176 feet) high. It was built by Akbar to commemorate his conquest of Gujarat in 1573 CE.",
+        "_id": "6ac526ea510fd149764d0632"
+      },
+      {
+        "question": "The Red Fort in Delhi was built by which Mughal Emperor and between which years?",
+        "options": [
+          "Akbar (1565-1575)",
+          "Jahangir (1605-1620)",
+          "Shah Jahan (1638-1648)",
+          "Aurangzeb (1658-1680)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Red Fort (Lal Qila) was built by Emperor Shah Jahan between 1638 and 1648 CE. It served as the main residence of the Mughal emperors for nearly 200 years until 1857.",
+        "_id": "6ac526ea510fd149764d0633"
+      },
+      {
+        "question": "What architectural style is demonstrated by the Red Fort and Fatehpur Sikri?",
+        "options": [
+          "Nagara Style",
+          "Dravidian Style",
+          "Indo-Islamic Style",
+          "Colonial Style"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Red Fort and Fatehpur Sikri are built in the Indo-Islamic (or Mughal) architectural style, which synthesizes elements from Central Asian Islamic architecture with indigenous Indian (particularly Hindu and Jain) traditions.",
+        "_id": "6ac526ea510fd149764d0634"
+      },
+      {
+        "question": "The Taj Mahal was built by Emperor Shah Jahan as a mausoleum for whom?",
+        "options": [
+          "His mother Nur Jahan",
+          "His wife Mumtaz Mahal",
+          "His daughter Jahanara Begum",
+          "Himself"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Taj Mahal was built by Emperor Shah Jahan as a mausoleum for his beloved wife Mumtaz Mahal, who died in 1631 CE during childbirth. Construction began in 1632 and was completed in 1648.",
+        "_id": "6ac526ea510fd149764d0635"
+      }
+    ],
+    "passingScore": 60,
+    "timeLimit": 0,
+    "isPublished": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.509Z",
+    "updatedAt": "2026-10-06T16:50:50.509Z"
+  }
+]

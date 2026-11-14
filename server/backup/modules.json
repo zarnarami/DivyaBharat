@@ -1,0 +1,133 @@
+[
+  {
+    "_id": "6ac526ea510fd149764d0618",
+    "title": "Introduction to Indian Heritage",
+    "description": "A beginner's guide to understanding the rich tapestry of India's cultural and architectural heritage, from ancient civilizations to the Mughal era.",
+    "category": "General",
+    "level": "beginner",
+    "duration": 45,
+    "thumbnail": "",
+    "lessons": [
+      {
+        "title": "What is Heritage?",
+        "content": "Heritage refers to the legacy of physical artifacts and intangible attributes inherited from past generations, maintained in the present, and bestowed for the benefit of future generations.\n\n**Types of Heritage:**\n\n1. **Natural Heritage** – Natural features (geological formations, flora/fauna), aesthetic and scientific value. Example: Sundarbans Mangrove Forest, Western Ghats.\n\n2. **Cultural Heritage** (Tangible) – Monuments, buildings, historic places, and sites of cultural significance. Example: Taj Mahal, Red Fort, Konark Sun Temple.\n\n3. **Intangible Cultural Heritage** – Traditions, oral expressions, performing arts, social practices, rituals, festive events, knowledge about nature. Example: Yoga, Kumbh Mela, Bharatanatyam.\n\n**Why Heritage Matters:**\n- It connects us to our past and gives us a sense of identity\n- It provides economic benefits through tourism\n- It preserves knowledge and wisdom of ancestors\n- It fosters respect for other cultures and civilizations\n\nIndia has 42 UNESCO World Heritage Sites (as of 2024) — 34 cultural, 7 natural, and 1 mixed.",
+        "duration": 12,
+        "order": 0,
+        "_id": "6ac526ea510fd149764d0619"
+      },
+      {
+        "title": "Major Periods of Indian History",
+        "content": "**1. Indus Valley Civilization (3300–1300 BCE)**\nOne of the world's earliest urban civilizations. Key sites: Mohenjo-daro (Pakistan), Harappa (Pakistan), Dholavira (India), Lothal (India). Known for advanced urban planning, sewage systems, and writing (yet undeciphered).\n\n**2. Vedic Period (1500–500 BCE)**\nPeriod when the Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) were composed. Foundation of Hinduism, Sanskrit literature, and early Indian philosophy.\n\n**3. Maurya Empire (322–185 BCE)**\nEmperor Chandragupta Maurya unified most of the Indian subcontinent. His grandson Ashoka the Great converted to Buddhism after the Kalinga War and spread Buddhism across Asia. Key heritage: Sanchi Stupa, Ashoka Pillars.\n\n**4. Gupta Empire (320–550 CE)**\nCalled the \"Golden Age\" of India. Advances in mathematics (concept of zero, decimal system by Aryabhata), astronomy, literature, and art. Classical Sanskrit literature flourished.\n\n**5. Rajput Period (600–1200 CE)**\nRajput clans dominated northern India. Known for magnificent fort architecture and heroic military tradition. Key heritage: Khajuraho temples, Mewar forts.\n\n**6. Delhi Sultanate (1206–1526 CE)**\nFive successive dynasties (Slave, Khalji, Tughlaq, Sayyid, Lodi) ruled from Delhi. Indo-Islamic architecture began. Key heritage: Qutb Minar, Alai Darwaza.\n\n**7. Mughal Empire (1526–1857 CE)**\nFounded by Babur, reached its zenith under Akbar, Shah Jahan, and Aurangzeb. Peak of Indo-Islamic architecture. Key heritage: Taj Mahal, Red Fort, Fatehpur Sikri.\n\n**8. Colonial Period (1757–1947 CE)**\nBritish East India Company and then the British Crown ruled India. Colonial architecture emerged. Independence achieved on August 15, 1947.",
+        "duration": 18,
+        "order": 1,
+        "_id": "6ac526ea510fd149764d061a"
+      },
+      {
+        "title": "UNESCO World Heritage Sites in India",
+        "content": "India has 42 UNESCO World Heritage Sites, making it the sixth country globally by number of World Heritage Sites.\n\n**What is UNESCO?**\nThe United Nations Educational, Scientific and Cultural Organization (UNESCO) identifies and protects sites of \"Outstanding Universal Value\" through its World Heritage Convention (1972).\n\n**How Sites are Selected:**\nSites must meet at least one of 10 criteria relating to:\n- Unique artistic or architectural achievement\n- Outstanding example of a type of building or landscape\n- Direct association with events of outstanding universal significance\n- Exceptional natural beauty or aesthetic importance (for natural sites)\n\n**India's UNESCO World Heritage Cultural Sites include:**\n\n| Site | State | Year Inscribed |\n|------|-------|----------------|\n| Ajanta Caves | Maharashtra | 1983 |\n| Ellora Caves | Maharashtra | 1983 |\n| Agra Fort | Uttar Pradesh | 1983 |\n| Taj Mahal | Uttar Pradesh | 1983 |\n| Mahabalipuram | Tamil Nadu | 1984 |\n| Konark Sun Temple | Odisha | 1984 |\n| Kaziranga National Park | Assam | 1985 (Natural) |\n| Hampi | Karnataka | 1986 |\n| Khajuraho | Madhya Pradesh | 1986 |\n| Fatehpur Sikri | Uttar Pradesh | 1986 |\n| Red Fort Complex | Delhi | 2007 |\n| Rani-ki-Vav | Gujarat | 2014 |\n| Dholavira | Gujarat | 2021 |\n| Hoysala temples | Karnataka | 2023 |",
+        "duration": 15,
+        "order": 2,
+        "_id": "6ac526ea510fd149764d061b"
+      }
+    ],
+    "heritageReferences": [],
+    "objectives": [
+      "Understand the major periods of Indian history and their heritage contributions",
+      "Learn the difference between UNESCO World Heritage Sites and other heritage categories",
+      "Identify the major architectural styles of Indian temples and monuments",
+      "Appreciate the diversity of Indian cultural traditions across states"
+    ],
+    "isPublished": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.504Z",
+    "updatedAt": "2026-10-06T16:50:50.511Z",
+    "quiz": "6ac526ea510fd149764d0625"
+  },
+  {
+    "_id": "6ac526ea510fd149764d061c",
+    "title": "Temple Architecture of India",
+    "description": "An exploration of the diverse styles of Hindu temple architecture across India, from the Nagara style of the North to the Dravidian style of the South.",
+    "category": "Temple",
+    "level": "intermediate",
+    "duration": 60,
+    "thumbnail": "",
+    "lessons": [
+      {
+        "title": "Three Styles of Hindu Temple Architecture",
+        "content": "Hindu temples evolved into three principal regional styles over centuries:\n\n**1. Nagara Style (North India)**\n- Found in northern and central India\n- Characterized by a curvilinear shikhara (tower) rising over the sanctum\n- The shikhara curves inward as it rises, ending in a flat disc (amalaka) topped by a pot-shaped finial (kalasha)\n- Key examples: Konark Sun Temple (Odisha), Khajuraho temples (MP), Lingaraja Temple (Bhubaneswar)\n- Sub-types: Latina (simple curvilinear), Valabhi (barrel-vaulted), Shekhara (clustered)\n\n**2. Dravidian Style (South India)**\n- Found in Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, Kerala\n- Characterized by a pyramidal tower (vimana) with horizontal tiers over the sanctum\n- Massive entrance gateways (gopurams) are the most striking feature, often much taller than the main temple\n- Key examples: Brihadeeswarar Temple (Thanjavur), Meenakshi Amman Temple (Madurai), Shore Temple (Mahabalipuram)\n\n**3. Vesara Style (Deccan/Mixed)**\n- A hybrid of Nagara and Dravidian elements\n- Predominant in the Deccan region (Karnataka, Maharashtra)\n- Key examples: Hoysala temples (Karnataka) — noted for their star-shaped platforms and intricate sculptures",
+        "duration": 20,
+        "order": 0,
+        "_id": "6ac526ea510fd149764d061d"
+      },
+      {
+        "title": "Key Elements of a Hindu Temple",
+        "content": "A Hindu temple is conceived as the dwelling of the deity — a sacred mountain or the cosmos itself. The main architectural elements are:\n\n**Garbhagriha (Sanctum Sanctorum)**\n- The innermost chamber housing the main deity\n- Dark, small, and womb-like (garbha = womb, griha = house)\n- Represents the cave within the sacred mountain\n\n**Shikhara / Vimana (Tower/Spire)**\n- The towering superstructure above the garbhagriha\n- Represents the sacred mountain (Mount Meru/Kailash)\n- In Nagara style: curvilinear (shikhara); in Dravidian: pyramidal (vimana)\n\n**Mandapa (Hall/Porch)**\n- The assembly hall in front of the garbhagriha where devotees gather\n- Can be ardhamandapa (small), mandapa (main), and mahamandapa (great hall)\n- Often intricately carved with mythological scenes\n\n**Antechamber (Vestibule)**\n- Connects the mandapa to the garbhagriha\n\n**Pradakshinapatha (Circumambulation Path)**\n- Devotees walk clockwise around the sanctum as an act of worship\n\n**Gopuram (Gateway Tower)**\n- Characteristic of South Indian (Dravidian) temples\n- The huge ceremonial towers at the temple entrances\n- Often the most visually impressive element, covered in stucco sculptures\n\n**Vastu Shastra:**\nTemple design follows Vastu Shastra, the ancient Indian science of architecture. Temples are oriented east-west so the rising sun illuminates the deity. The layout corresponds to the Vastu Purusha Mandala — a grid that maps cosmic energies to physical space.",
+        "duration": 25,
+        "order": 1,
+        "_id": "6ac526ea510fd149764d061e"
+      },
+      {
+        "title": "Famous Temples of India",
+        "content": "**Brihadeeswarar Temple (Thanjavur, Tamil Nadu)**\nBuilt by Chola king Raja Raja I (985–1014 CE). The vimana (tower) rises 66 metres — one of the tallest in the world. A UNESCO World Heritage Site since 1987. The shadow of the vimana reportedly does not fall on the ground at noon.\n\n**Meenakshi Amman Temple (Madurai, Tamil Nadu)**\nOne of India's largest and most visited temples. Dedicated to Goddess Meenakshi and Lord Sundareswarar. Has 14 gopurams (towers), with the tallest measuring 52 metres. Estimated to have 33,000 sculptures.\n\n**Tirupati Balaji — Venkateswara Temple (Andhra Pradesh)**\nThe world's most visited religious site, receiving ~70,000-100,000 pilgrims daily. Located on Tirumala Hills, dedicated to Lord Venkateswara (form of Vishnu). Estimated annual revenue exceeds Rs. 4,000 crore.\n\n**Somnath Temple (Gujarat)**\nOne of the 12 Jyotirlingas (the most sacred Shiva shrines). Was destroyed and rebuilt multiple times. The current temple was rebuilt in 1951 under the initiative of Sardar Vallabhbhai Patel.\n\n**Kashi Vishwanath Temple (Varanasi, Uttar Pradesh)**\nOne of the 12 Jyotirlingas, located in Varanasi (Kashi), the holiest city of Hinduism. The temple was demolished multiple times and rebuilt. The current structure was built by Ahilya Bai Holkar of Indore in 1780 CE.\n\n**Golden Temple — Harmandir Sahib (Amritsar, Punjab)**\nThe holiest Sikh gurdwara, built in Amritsar in 1604 CE. The upper floors are covered with 750 kg of pure gold donated by Maharaja Ranjit Singh. Langar (free community kitchen) serves 100,000+ meals daily.",
+        "duration": 15,
+        "order": 2,
+        "_id": "6ac526ea510fd149764d061f"
+      }
+    ],
+    "heritageReferences": [],
+    "objectives": [
+      "Distinguish between Nagara, Vesara, and Dravidian temple architectural styles",
+      "Identify key features of a Hindu temple: shikhara, mandapa, garbhagriha, gopuram",
+      "Understand the Vastu Shastra principles guiding temple construction",
+      "Trace the evolution of temple architecture from Gupta period to medieval India"
+    ],
+    "isPublished": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.504Z",
+    "updatedAt": "2026-10-06T16:50:50.522Z",
+    "quiz": "6ac526ea510fd149764d0630"
+  },
+  {
+    "_id": "6ac526ea510fd149764d0620",
+    "title": "Living Traditions of India",
+    "description": "Explore the vibrant living traditions, festivals, performing arts, and craft traditions that continue to thrive across India today.",
+    "category": "Tradition",
+    "level": "beginner",
+    "duration": 40,
+    "thumbnail": "",
+    "lessons": [
+      {
+        "title": "Intangible Cultural Heritage of India",
+        "content": "**What is Intangible Cultural Heritage (ICH)?**\n\nUNESCO defines ICH as \"practices, representations, expressions, knowledge, skills — as well as the instruments, objects, artefacts, and cultural spaces associated therewith — that communities, groups, and, in some cases, individuals recognize as part of their cultural heritage.\"\n\nICH is \"living\" heritage — it is continuously recreated by communities and passed down through generations.\n\n**India's UNESCO ICH Elements (partial list):**\n\n| ICH Element | Year Recognized |\n|-------------|----------------|\n| Koodiyattam (Sanskrit theatre, Kerala) | 2008 |\n| Vedic Chanting | 2008 |\n| Ramlila (traditional performance of Ramayana) | 2008 |\n| Ramman (Uttarakhand ritual) | 2009 |\n| Mudiyettu (Kerala ritual theatre) | 2010 |\n| Kalbelia (Rajasthan folk songs and dances) | 2010 |\n| Chhau dance | 2010 |\n| Buddhist Chanting (Ladakh) | 2012 |\n| Sankirtana (Manipur ritual) | 2013 |\n| Yoga | 2016 |\n| Nawrouz (Persian New Year) | 2016 |\n| Kumbh Mela | 2017 |\n| Durga Puja | 2021 |\n| Garba of Gujarat | 2023 |\n\n**Eight Classical Dance Forms of India** (recognized by Sangeet Natak Akademi):\n1. Bharatanatyam (Tamil Nadu)\n2. Kathak (North India)\n3. Kathakali (Kerala)\n4. Kuchipudi (Andhra Pradesh)\n5. Manipuri (Manipur)\n6. Mohiniyattam (Kerala)\n7. Odissi (Odisha)\n8. Sattriya (Assam)",
+        "duration": 15,
+        "order": 0,
+        "_id": "6ac526ea510fd149764d0621"
+      },
+      {
+        "title": "Major Festivals of India",
+        "content": "India's diversity is best experienced through its festivals. Here are some of the most significant:\n\n**Diwali — Festival of Lights**\n- Date: Amavasya (new moon) of Kartik month (October-November)\n- Celebrated by Hindus, Jains, and Sikhs\n- Commemorates Lord Rama's return to Ayodhya; also celebrates Goddess Lakshmi\n- Characterized by lighting of diyas (lamps), fireworks, exchange of sweets, worship of Lakshmi-Ganesha\n\n**Holi — Festival of Colors**\n- Date: Full moon of Phalguna (February-March)\n- Celebrates the victory of good over evil (Holika Dahan story)\n- Associated with Krishna and Radha's playful tradition in Mathura-Vrindavan\n- Most vibrant in Uttar Pradesh, Rajasthan, and West Bengal (as Dol Jatra)\n\n**Eid-ul-Fitr and Eid-ul-Adha**\n- Eid-ul-Fitr marks the end of Ramadan (Islamic month of fasting)\n- Eid-ul-Adha commemorates Ibrahim's willingness to sacrifice his son\n- Celebrated with namaz, feasting, charity, and community gatherings\n\n**Christmas**\n- Celebrated on December 25 by India's Christian communities (approximately 28 million)\n- Goa, Kerala, and Meghalaya have particularly vibrant Christmas celebrations\n\n**Onam (Kerala)**\n- Harvest festival of Kerala celebrating the return of mythical King Mahabali\n- Celebrated with the famous Pookalam (flower carpet), Vallam Kali (snake boat race), and Onam Sadya (traditional feast)\n- Declared a UNESCO Intangible Cultural Heritage of Humanity in 2020\n\n**Navratri and Garba (Gujarat)**\n- Nine-night festival dedicated to Goddess Durga in her nine forms\n- The Garba dance of Gujarat during Navratri was inscribed in UNESCO's ICH list in 2023\n- Celebrated with fasting, Dandiya Raas, and Garba dance",
+        "duration": 15,
+        "order": 1,
+        "_id": "6ac526ea510fd149764d0622"
+      },
+      {
+        "title": "Traditional Crafts of India",
+        "content": "India's traditional crafts represent centuries of accumulated skill and artistic tradition. Each region has its distinctive craft traditions:\n\n**Textile Crafts:**\n- **Banarasi Silk** (Varanasi, UP) — GI Tagged; silk sarees woven with gold/silver brocade\n- **Kanchipuram Silk** (Tamil Nadu) — GI Tagged; known for rich colors and heavy silk\n- **Pashmina** (Kashmir) — Ultra-fine cashmere wool shawls\n- **Patola** (Patan, Gujarat) — GI Tagged; double ikat-woven silk sarees\n- **Phulkari** (Punjab) — Floral embroidery on cloth for festive occasions\n- **Chikankari** (Lucknow) — Delicate hand-embroidery on fine fabric\n\n**Painting Traditions:**\n- **Madhubani/Mithila** (Bihar) — Folk paintings on paper/walls\n- **Warli** (Maharashtra/Gujarat tribal) — Geometric tribal art\n- **Pattachitra** (Odisha/Bengal) — Narrative scroll paintings\n- **Tanjore Painting** (Tamil Nadu) — Rich with gold foil and precious stones\n- **Miniature Painting** (Rajasthan/Mughal tradition)\n\n**Craft Traditions:**\n- **Dhokra** (Chhattisgarh/West Bengal) — Ancient lost-wax metal casting technique\n- **Blue Pottery** (Jaipur, Rajasthan) — GI Tagged; Turco-Persian technique with Indian motifs\n- **Channapatna Toys** (Karnataka) — GI Tagged; lacquer-coated wooden toys\n- **Bidriware** (Bidar, Karnataka) — GI Tagged; black alloy inlaid with silver\n\nMany crafts carry GI (Geographical Indication) tags from the Government of India, protecting them from imitation and supporting the artisan communities.",
+        "duration": 10,
+        "order": 2,
+        "_id": "6ac526ea510fd149764d0623"
+      }
+    ],
+    "heritageReferences": [],
+    "objectives": [
+      "Understand what constitutes intangible cultural heritage",
+      "Learn about major UNESCO-recognized intangible cultural heritages of India",
+      "Explore the role of festivals in preserving cultural traditions",
+      "Appreciate the diversity of Indian classical and folk performing arts"
+    ],
+    "isPublished": true,
+    "__v": 0,
+    "createdAt": "2026-10-06T16:50:50.504Z",
+    "updatedAt": "2026-10-06T16:50:50.504Z"
+  }
+]

@@ -1,0 +1,1253 @@
+/* src/pages/StatePage.css — DivyaBharat Divine & Spiritual Regional Heritage Styling */
+
+.db-statepage {
+  min-height: 100vh;
+  background: #fff8f2;
+  display: flex;
+  flex-direction: column;
+  color: #4a2c1d;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   1. TOP TORANA NAVIGATION BAR
+   ───────────────────────────────────────────────────────────── */
+.db-state-topbar {
+  background: #fdf3ed;
+  border-bottom: 1.5px solid rgba(201, 154, 107, 0.3);
+  padding: 10px 40px;
+  position: relative;
+  z-index: 20;
+}
+
+.db-state-topbar-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.db-state-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.db-state-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 16px;
+  border-radius: 30px;
+  border: 1.5px solid rgba(201, 154, 107, 0.35);
+  background: #ffffff;
+  color: #6b4b3e;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(107, 75, 62, 0.05);
+}
+
+.db-state-nav-pill:hover {
+  background: #fce8db;
+  border-color: rgba(201, 154, 107, 0.7);
+  color: #8b2500;
+  transform: translateY(-1px);
+}
+
+.db-state-share-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 30px;
+  border: 1.5px solid rgba(201, 154, 107, 0.4);
+  background: #fff8f2;
+  color: #8a4a30;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.db-state-share-pill:hover {
+  background: #ffffff;
+  border-color: #c99a6b;
+  box-shadow: 0 4px 12px rgba(201, 154, 107, 0.25);
+}
+
+.db-state-share-pill.copied {
+  background: #f0fdf4;
+  border-color: #86efac;
+  color: #15803d;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   2. SACRED STATE HERO SECTION
+   ───────────────────────────────────────────────────────────── */
+.db-state-hero-section {
+  position: relative;
+  padding: 50px 40px 70px;
+  background: linear-gradient(180deg, #fdf3ed 0%, #fbf0e8 40%, #fff8f2 100%);
+  border-bottom: 2px solid rgba(201, 154, 107, 0.25);
+  overflow: hidden;
+}
+
+.db-state-hero-backdrop {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 35%;
+  opacity: 0.16;
+  filter: saturate(1.15) contrast(1.05);
+  transform: scale(1.02);
+  pointer-events: none;
+}
+
+.db-state-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(253, 243, 237, 0.82) 0%,
+    rgba(251, 240, 232, 0.94) 60%,
+    #fff8f2 100%
+  );
+  pointer-events: none;
+}
+
+.db-state-hero-container {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Sacred Sanskrit Shloka Ribbon */
+.db-state-shloka-banner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 28px;
+  border-radius: 40px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(254, 246, 238, 0.95));
+  border: 1.5px solid rgba(201, 154, 107, 0.45);
+  box-shadow: 
+    0 4px 16px rgba(107, 75, 62, 0.08),
+    0 0 20px rgba(201, 154, 107, 0.15);
+  margin-bottom: 36px;
+  backdrop-filter: blur(8px);
+}
+
+.db-state-shloka-diya {
+  font-size: 16px;
+  filter: drop-shadow(0 0 4px rgba(243, 156, 18, 0.6));
+}
+
+.db-state-shloka-text {
+  font-family: 'Cormorant Garamond', 'Noto Serif Devanagari', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #8b2500;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Hero Content Card */
+.db-state-hero-card {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 40px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 28px;
+  border: 2px solid rgba(201, 154, 107, 0.35);
+  box-shadow: 
+    0 16px 40px rgba(107, 75, 62, 0.07),
+    0 4px 12px rgba(201, 154, 107, 0.1);
+}
+
+/* Emblem Medallion Pedestal */
+.db-state-emblem-pedestal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.db-state-emblem-halo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff8f2 30%, #fae6d5 70%, #f6caa6 100%);
+  border: 3px solid rgba(201, 154, 107, 0.6);
+  box-shadow: 
+    0 12px 32px rgba(107, 75, 62, 0.15),
+    0 0 28px rgba(201, 154, 107, 0.35),
+    inset 0 0 18px rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  position: relative;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.db-state-emblem-halo:hover {
+  transform: scale(1.04) rotate(1deg);
+  box-shadow: 
+    0 18px 44px rgba(107, 75, 62, 0.22),
+    0 0 36px rgba(201, 154, 107, 0.5),
+    inset 0 0 22px rgba(255, 255, 255, 0.9);
+}
+
+.db-state-emblem-halo .temple-emblem-svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 4px 10px rgba(107, 75, 62, 0.25));
+}
+
+/* Hero Text & Meta */
+.db-state-hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.db-state-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.db-state-region-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background: rgba(230, 171, 130, 0.25);
+  border: 1px solid rgba(201, 154, 107, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #8b2500;
+}
+
+.db-om-icon {
+  font-size: 12px;
+  color: #c99a6b;
+}
+
+.db-state-capital-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #6b4b3e;
+}
+
+.db-state-capital-badge strong {
+  color: #3c1f16;
+}
+
+.db-state-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(38px, 4.5vw, 60px);
+  font-weight: 700;
+  color: #3c1f16;
+  line-height: 1.05;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.5px;
+}
+
+.db-state-subtitle {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 600;
+  color: #a0522d;
+  margin-bottom: 14px;
+  line-height: 1.35;
+}
+
+.db-state-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #5c3c2e;
+  max-width: 900px;
+  margin-bottom: 24px;
+}
+
+/* 4 Divine Metadata Grid */
+.db-state-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.db-state-meta-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1.5px solid rgba(201, 154, 107, 0.3);
+  box-shadow: 0 2px 8px rgba(107, 75, 62, 0.04);
+}
+
+.db-meta-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.db-meta-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.db-meta-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #a07060;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.db-meta-value {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #3c1f16;
+  line-height: 1.35;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   3. DISCOVERY SECTION & MAIN TABS
+   ───────────────────────────────────────────────────────────── */
+.db-state-discovery-section {
+  padding: 40px 40px 70px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.db-state-discovery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Andhra Pradesh Section Switcher (Heritage Destinations vs Sacred Temples) */
+.db-ap-section-switcher {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 0 auto 36px auto;
+  max-width: 620px;
+}
+
+.db-ap-section-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 24px;
+  border-radius: 50px;
+  border: 2px solid rgba(201, 154, 107, 0.4);
+  background: #ffffff;
+  color: #6b4b3e;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 12px rgba(107, 75, 62, 0.05);
+}
+
+.db-ap-section-btn:hover {
+  background: #fff8f2;
+  border-color: #c99a6b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(201, 154, 107, 0.2);
+}
+
+.db-ap-section-btn.active {
+  background: linear-gradient(135deg, #e6ab82 0%, #c99a6b 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 6px 20px rgba(201, 154, 107, 0.45);
+}
+
+.db-ap-section-btn .db-tab-count {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 800;
+  background: rgba(107, 75, 62, 0.1);
+  color: #6b4b3e;
+}
+
+.db-ap-section-btn.active .db-tab-count {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .db-ap-section-switcher {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Tab Navigation Strip */
+.db-state-main-tabs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 36px;
+  border-bottom: 2px solid rgba(201, 154, 107, 0.25);
+  scrollbar-width: none;
+}
+
+.db-state-main-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.db-state-main-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: 1.5px solid rgba(201, 154, 107, 0.35);
+  background: #ffffff;
+  color: #6b4b3e;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.db-state-main-tab:hover {
+  background: #fff8f2;
+  border-color: #c99a6b;
+  transform: translateY(-1px);
+}
+
+.db-state-main-tab.active {
+  background: linear-gradient(135deg, #e6ab82 0%, #c99a6b 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 4px 16px rgba(201, 154, 107, 0.4);
+}
+
+.db-tab-icon {
+  font-size: 16px;
+}
+
+.db-tab-count {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11.5px;
+  font-weight: 700;
+  background: rgba(107, 75, 62, 0.1);
+  color: #6b4b3e;
+}
+
+.db-state-main-tab.active .db-tab-count {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+/* Tab Pane Header */
+.db-pane-intro {
+  margin-bottom: 30px;
+}
+
+.db-pane-intro-text {
+  max-width: 850px;
+}
+
+.db-pane-pill {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #c99a6b;
+  margin-bottom: 8px;
+}
+
+.db-pane-intro-text h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #3c1f16;
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+}
+
+.db-pane-intro-text p {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #6b4b3e;
+  margin: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   4. TAB 1: SACRED TEMPLES GRID
+   ───────────────────────────────────────────────────────────── */
+.db-state-temples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 26px;
+}
+
+.db-temple-card {
+  background: linear-gradient(180deg, #ffffff 0%, #fffcf9 100%);
+  border-radius: 20px;
+  border: 1.5px solid rgba(201, 154, 107, 0.3);
+  box-shadow: 
+    0 6px 20px rgba(107, 75, 62, 0.06),
+    0 2px 6px rgba(201, 154, 107, 0.08);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.db-temple-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(201, 154, 107, 0.7);
+  box-shadow: 
+    0 18px 40px rgba(107, 75, 62, 0.12),
+    0 4px 14px rgba(201, 154, 107, 0.25);
+}
+
+.db-temple-card-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(201, 154, 107, 0.2);
+}
+
+.db-temple-icon-ring {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff8f2 40%, #fae6d5 100%);
+  border: 1.5px solid rgba(201, 154, 107, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(107, 75, 62, 0.1);
+}
+
+.db-temple-icon-inner {
+  font-size: 18px;
+  color: #8b2500;
+}
+
+.db-temple-header-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.db-temple-tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #c99a6b;
+}
+
+.db-temple-state-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #8a6050;
+  font-weight: 500;
+}
+
+.db-temple-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.db-temple-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3c1f16;
+  line-height: 1.25;
+  margin: 0 0 12px 0;
+}
+
+.db-temple-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #fdf6f0;
+  border: 1px solid rgba(201, 154, 107, 0.2);
+}
+
+.db-spec-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 12.5px;
+}
+
+.db-spec-key {
+  color: #8a6050;
+  font-weight: 500;
+}
+
+.db-spec-val {
+  color: #3c1f16;
+  font-weight: 600;
+  text-align: right;
+}
+
+.db-temple-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #6b4b3e;
+  margin-bottom: 18px;
+  flex: 1;
+}
+
+.db-temple-card-footer {
+  margin-top: auto;
+}
+
+.db-temple-action-btn {
+  width: 100%;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: 1.5px solid rgba(201, 154, 107, 0.45);
+  background: #fff8f2;
+  color: #8b2500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.db-temple-action-btn:hover {
+  background: #faeedb;
+  border-color: #c99a6b;
+  transform: translateY(-1.5px);
+}
+
+.db-temple-action-btn.primary {
+  background: linear-gradient(135deg, #e6ab82 0%, #c99a6b 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 4px 14px rgba(201, 154, 107, 0.35);
+}
+
+.db-temple-action-btn.primary:hover {
+  background: linear-gradient(135deg, #df9f74 0%, #b88a5c 100%);
+  box-shadow: 0 6px 18px rgba(201, 154, 107, 0.45);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   5. TAB 2: MONUMENTS & CITADELS GRID
+   ───────────────────────────────────────────────────────────── */
+.db-state-monuments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 26px;
+}
+
+.db-monument-card {
+  background: linear-gradient(180deg, #ffffff 0%, #fffcf9 100%);
+  border-radius: 20px;
+  border: 1.5px solid rgba(201, 154, 107, 0.3);
+  box-shadow: 
+    0 6px 20px rgba(107, 75, 62, 0.06),
+    0 2px 6px rgba(201, 154, 107, 0.08);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.db-monument-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(201, 154, 107, 0.7);
+  box-shadow: 
+    0 18px 40px rgba(107, 75, 62, 0.12),
+    0 4px 14px rgba(201, 154, 107, 0.25);
+}
+
+.db-monument-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(201, 154, 107, 0.2);
+}
+
+.db-monument-icon-ring {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff8f2 40%, #faeedb 100%);
+  border: 1.5px solid rgba(201, 154, 107, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.db-monument-icon-inner {
+  font-size: 18px;
+  color: #7a4a10;
+}
+
+.db-monument-tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #8a6050;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: #fdf3ed;
+  border: 1px solid rgba(201, 154, 107, 0.25);
+}
+
+.db-monument-unesco-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #fff9e6, #fde08b);
+  border: 1px solid rgba(212, 175, 55, 0.6);
+  color: #6b4000;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.db-monument-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.db-monument-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3c1f16;
+  line-height: 1.25;
+  margin: 0 0 10px 0;
+}
+
+.db-monument-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: #6b4b3e;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.db-monument-card-footer {
+  margin-top: auto;
+}
+
+.db-monument-action-btn {
+  width: 100%;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: 1.5px solid rgba(201, 154, 107, 0.45);
+  background: #fff8f2;
+  color: #7a4a10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.db-monument-action-btn:hover {
+  background: #faeedb;
+  border-color: #c99a6b;
+  transform: translateY(-1.5px);
+}
+
+.db-monument-action-btn.primary {
+  background: linear-gradient(135deg, #e6ab82 0%, #c99a6b 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 4px 14px rgba(201, 154, 107, 0.35);
+}
+
+.db-monument-action-btn.primary:hover {
+  background: linear-gradient(135deg, #df9f74 0%, #b88a5c 100%);
+  box-shadow: 0 6px 18px rgba(201, 154, 107, 0.45);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   6. TAB 3: COMPLETE DATABASE ARCHIVE
+   ───────────────────────────────────────────────────────────── */
+.db-state-category-filters {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  margin-bottom: 28px;
+  scrollbar-width: none;
+}
+
+.db-state-category-filters::-webkit-scrollbar {
+  display: none;
+}
+
+.db-state-cat-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  border: 1.5px solid rgba(201, 154, 107, 0.35);
+  background: #ffffff;
+  color: #6b4b3e;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.db-state-cat-filter:hover {
+  background: #fff8f2;
+  border-color: #c99a6b;
+}
+
+.db-state-cat-filter.active {
+  background: #e6ab82;
+  color: #ffffff;
+  border-color: #e6ab82;
+}
+
+.db-cat-count {
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 11px;
+  background: rgba(107, 75, 62, 0.1);
+  color: inherit;
+}
+
+.db-state-cat-filter.active .db-cat-count {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.db-state-db-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 26px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   7. TAB 4: LIVING CULTURE & SOUL SHOWCASE
+   ───────────────────────────────────────────────────────────── */
+.db-culture-showcase {
+  background: linear-gradient(180deg, #ffffff 0%, #fffcf9 100%);
+  border-radius: 24px;
+  border: 2px solid rgba(201, 154, 107, 0.3);
+  padding: 44px;
+  box-shadow: 0 10px 30px rgba(107, 75, 62, 0.06);
+}
+
+.db-culture-banner {
+  max-width: 800px;
+  margin-bottom: 36px;
+}
+
+.db-culture-banner h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #3c1f16;
+  line-height: 1.2;
+  margin: 6px 0 10px 0;
+}
+
+.db-culture-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #6b4b3e;
+  margin: 0;
+}
+
+.db-culture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.db-culture-card {
+  padding: 24px;
+  border-radius: 18px;
+  background: #fff8f2;
+  border: 1.5px solid rgba(201, 154, 107, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.db-culture-card-icon {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.db-culture-card h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #3c1f16;
+  margin: 0 0 6px 0;
+}
+
+.db-culture-card p {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #6b4b3e;
+  margin: 0 0 8px 0;
+}
+
+.db-culture-card-desc {
+  color: #7a5040;
+  font-size: 13px !important;
+  margin-top: auto;
+}
+
+.db-culture-shloka-box {
+  background: linear-gradient(135deg, #fff9f2 0%, #fde8db 100%);
+  border: 2px solid rgba(201, 154, 107, 0.45);
+  border-radius: 18px;
+  padding: 24px 32px;
+  text-align: center;
+}
+
+.db-culture-shloka-deva {
+  font-family: 'Cormorant Garamond', 'Noto Serif Devanagari', serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #8b2500;
+  margin: 0 0 8px 0;
+}
+
+.db-culture-shloka-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  color: #8a6050;
+  margin: 0;
+  font-style: italic;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   8. FOOTER CALLOUT BANNER
+   ───────────────────────────────────────────────────────────── */
+.db-state-footer-callout {
+  background: linear-gradient(135deg, #f5e4d7 0%, #fdf3ed 50%, #faeedb 100%);
+  border-top: 2px solid rgba(201, 154, 107, 0.35);
+  padding: 50px 40px;
+}
+
+.db-callout-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.db-callout-text h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #3c1f16;
+  margin: 0 0 6px 0;
+}
+
+.db-callout-text p {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #6b4b3e;
+  margin: 0;
+}
+
+.db-callout-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.db-callout-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: none;
+}
+
+.db-callout-btn.primary {
+  background: linear-gradient(135deg, #e6ab82 0%, #c99a6b 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(201, 154, 107, 0.35);
+}
+
+.db-callout-btn.primary:hover {
+  background: linear-gradient(135deg, #df9f74 0%, #b88a5c 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(201, 154, 107, 0.45);
+}
+
+.db-callout-btn.secondary {
+  background: #ffffff;
+  color: #6b4b3e;
+  border: 1.5px solid rgba(201, 154, 107, 0.4);
+}
+
+.db-callout-btn.secondary:hover {
+  background: #fff8f2;
+  border-color: #c99a6b;
+  transform: translateY(-2px);
+}
+
+.db-callout-btn.tertiary {
+  background: transparent;
+  color: #8b2500;
+  border: 1.5px solid rgba(201, 154, 107, 0.35);
+}
+
+.db-callout-btn.tertiary:hover {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: #8b2500;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   9. ERROR / EMPTY WRAPPER
+   ───────────────────────────────────────────────────────────── */
+.db-statepage-error-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 40px 20px;
+}
+
+.db-statepage-error-card {
+  max-width: 500px;
+  background: #ffffff;
+  border-radius: 24px;
+  border: 2px solid rgba(201, 154, 107, 0.35);
+  box-shadow: 0 12px 36px rgba(107, 75, 62, 0.08);
+  padding: 40px;
+  text-align: center;
+}
+
+.db-statepage-error-icon {
+  font-size: 54px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.db-statepage-error-card h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 28px;
+  color: #3c1f16;
+  margin: 0 0 12px 0;
+}
+
+.db-statepage-error-card p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14.5px;
+  color: #7a5040;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.db-statepage-error-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.db-statepage-btn-primary {
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #e6ab82 0%, #c99a6b 100%);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.db-statepage-btn-outline {
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 1.5px solid rgba(201, 154, 107, 0.4);
+  background: #ffffff;
+  color: #6b4b3e;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   10. RESPONSIVE DESIGN
+   ───────────────────────────────────────────────────────────── */
+@media (max-width: 992px) {
+  .db-state-hero-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 30px 24px;
+    gap: 24px;
+  }
+
+  .db-state-badge-row {
+    justify-content: center;
+  }
+
+  .db-state-meta-grid {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  .db-state-shloka-banner {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .db-callout-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .db-callout-actions {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .db-state-topbar {
+    padding: 10px 16px;
+  }
+
+  .db-state-hero-section {
+    padding: 30px 16px 50px;
+  }
+
+  .db-state-discovery-section {
+    padding: 30px 16px 50px;
+  }
+
+  .db-state-emblem-halo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .db-state-title {
+    font-size: 34px;
+  }
+
+  .db-state-subtitle {
+    font-size: 18px;
+  }
+
+  .db-state-meta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .db-state-temples-grid,
+  .db-state-monuments-grid,
+  .db-state-db-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .db-culture-showcase {
+    padding: 24px 18px;
+  }
+
+  .db-culture-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .db-state-footer-callout {
+    padding: 36px 16px;
+  }
+}

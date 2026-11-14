@@ -1,0 +1,907 @@
+/* src/LoginPage.css — DivyaBharat Divine Login Portal
+   Soft Pastel Divine Theme representing India's sacred beauty, peace, and eternal culture
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+.divine-login-page *,
+.divine-login-page *::before,
+.divine-login-page *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   1. MAIN FULL-PAGE CONTAINER & SACRED ATMOSPHERE BACKDROP
+   ═════════════════════════════════════════════════════════════ */
+.divine-login-page {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 32px 18px;
+  overflow-x: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #5C3D2E;
+}
+
+/* Soft Ivory & Pastel Peach Atmospheric Overlay */
+.divine-login-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 25%,
+    rgba(255, 249, 245, 0.45) 0%,
+    rgba(251, 229, 216, 0.65) 60%,
+    rgba(244, 221, 224, 0.75) 100%
+  );
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   2. MAIN DIVINE LOGIN CARD
+   ═════════════════════════════════════════════════════════════ */
+.divine-login-card-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 440px;
+  margin: auto;
+  animation: divineCardFadeIn 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes divineCardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.divine-login-card {
+  width: 100%;
+  background: rgba(255, 252, 248, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1.5px solid rgba(216, 185, 138, 0.55);
+  border-radius: 28px;
+  padding: 34px 32px 26px 32px;
+  box-shadow:
+    0 22px 60px rgba(128, 100, 85, 0.14),
+    0 6px 24px rgba(216, 185, 138, 0.28),
+    inset 0 0 24px rgba(255, 255, 255, 0.85);
+  transition: all 0.3s ease;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   3. HEADER: OM SYMBOL + DIVYABHARAT LOGO + ORNAMENT
+   ═════════════════════════════════════════════════════════════ */
+.divine-header-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Traditional Sacred Om Symbol with Golden Divine Glow */
+.divine-om-emblem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  animation: divineOmGlow 3.5s ease-in-out infinite alternate;
+}
+
+@keyframes divineOmGlow {
+  0% {
+    filter: drop-shadow(0 0 6px rgba(216, 185, 138, 0.45));
+    transform: scale(1);
+  }
+  100% {
+    filter: drop-shadow(0 0 16px rgba(216, 185, 138, 0.85)) drop-shadow(0 0 28px rgba(251, 229, 216, 0.7));
+    transform: scale(1.04);
+  }
+}
+
+.divine-om-glyph {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1;
+  background: linear-gradient(135deg, #c99a6b 0%, #b07455 50%, #806455 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+
+/* Official DivyaBharat Website Logo Medallion */
+.divine-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  background: radial-gradient(circle at center, #ffffff 60%, #fff8f2 100%);
+  border: 2px solid rgba(216, 185, 138, 0.65);
+  border-radius: 50%;
+  box-shadow:
+    0 6px 18px rgba(216, 185, 138, 0.32),
+    0 0 20px rgba(255, 248, 242, 0.9),
+    inset 0 0 10px rgba(255, 255, 255, 0.95);
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+.divine-logo-container:hover {
+  transform: scale(1.03);
+}
+
+.divine-official-logo {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(128, 100, 85, 0.15));
+}
+
+/* Lotus Motif Ornamental Divider */
+.divine-lotus-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.divine-sparkle {
+  color: #D8B98A;
+  font-size: 11px;
+}
+
+.divine-line {
+  flex: 1;
+  max-width: 50px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(216, 185, 138, 0.6), transparent);
+}
+
+.divine-lotus-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Headings */
+.divine-login-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #5C3D2E;
+  letter-spacing: 0.3px;
+  line-height: 1.15;
+  margin-bottom: 5px;
+}
+
+.divine-login-subtitle {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 14.5px;
+  font-style: italic;
+  font-weight: 500;
+  color: #806455;
+  line-height: 1.35;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   4. DIVINE ALERTS
+   ═════════════════════════════════════════════════════════════ */
+.divine-alert-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(248, 233, 233, 0.92);
+  border: 1px solid rgba(220, 100, 100, 0.35);
+  border-radius: 12px;
+  padding: 9px 14px;
+  margin-bottom: 14px;
+  font-size: 12.5px;
+  color: #a83232;
+  line-height: 1.35;
+  animation: divineShake 0.3s ease;
+}
+
+@keyframes divineShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.divine-alert-icon {
+  color: #c0392b;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   5. FORM & INPUT FIELDS
+   ═════════════════════════════════════════════════════════════ */
+.divine-form {
+  width: 100%;
+}
+
+.divine-field-group {
+  margin-bottom: 13px;
+}
+
+.divine-field-label {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6B4B3E;
+  margin-bottom: 5px;
+  letter-spacing: 0.2px;
+}
+
+.divine-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #FFFBF7;
+  border: 1.2px solid rgba(216, 185, 138, 0.45);
+  border-radius: 12px;
+  height: 44px;
+  padding: 0 14px;
+  box-shadow: inset 0 1px 3px rgba(128, 100, 85, 0.04);
+  transition: all 0.25s ease;
+}
+
+.divine-input-wrap:focus-within {
+  border-color: #D8B98A;
+  background: #ffffff;
+  box-shadow:
+    0 0 0 3.5px rgba(216, 185, 138, 0.2),
+    0 2px 8px rgba(216, 185, 138, 0.15);
+}
+
+.divine-input-icon {
+  font-size: 14px;
+  color: #a07a68;
+  margin-right: 10px;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.divine-input-wrap:focus-within .divine-input-icon {
+  color: #6B4B3E;
+}
+
+.divine-input {
+  flex: 1;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  color: #4A2C1D;
+}
+
+.divine-input::placeholder {
+  color: #b59585;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Password Toggle Eye Button */
+.divine-pwd-toggle {
+  background: none;
+  border: none;
+  color: #a07a68;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: color 0.2s ease, transform 0.15s ease;
+}
+
+.divine-pwd-toggle:hover {
+  color: #5C3D2E;
+  transform: scale(1.1);
+}
+
+/* ═════════════════════════════════════════════════════════════
+   6. REMEMBER ME & FORGOT PASSWORD ROW
+   ═════════════════════════════════════════════════════════════ */
+.divine-options-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+  margin-bottom: 18px;
+  font-size: 12.5px;
+}
+
+.divine-checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  gap: 7px;
+}
+
+.divine-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.divine-checkbox-custom {
+  position: relative;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: #FFFBF7;
+  border: 1.5px solid rgba(216, 185, 138, 0.7);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.divine-checkbox:checked + .divine-checkbox-custom {
+  background: #D8B98A;
+  border-color: #D8B98A;
+}
+
+.divine-checkbox:checked + .divine-checkbox-custom::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 1.5px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.divine-checkbox-text {
+  font-family: 'Inter', sans-serif;
+  color: #6B4B3E;
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.divine-forgot-link {
+  background: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #806455;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.divine-forgot-link:hover {
+  color: #4A2C1D;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   7. SUBMIT BUTTON
+   ═════════════════════════════════════════════════════════════ */
+.divine-submit-btn {
+  width: 100%;
+  height: 46px;
+  border: 1px solid rgba(216, 185, 138, 0.75);
+  border-radius: 12px;
+  background: linear-gradient(135deg, #FBE5D8 0%, #E6AB82 50%, #D8B98A 100%);
+  color: #4A2C1D;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  box-shadow:
+    0 4px 14px rgba(230, 171, 130, 0.38),
+    0 1px 3px rgba(128, 100, 85, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.divine-submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 22px rgba(216, 185, 138, 0.48),
+    0 2px 6px rgba(128, 100, 85, 0.15);
+  filter: brightness(1.02);
+}
+
+.divine-submit-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.divine-submit-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.divine-btn-loading {
+  font-style: italic;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   8. FOOTER SWITCH LINKS & REGISTER
+   ═════════════════════════════════════════════════════════════ */
+.divine-footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+}
+
+.divine-switch-prompt {
+  color: #806455;
+}
+
+.divine-switch-action {
+  background: none;
+  border: none;
+  color: #6B4B3E;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  transition: color 0.2s ease;
+}
+
+.divine-switch-action:hover {
+  color: #b07455;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   9. QUICK DEMO LOGIN PILLS
+   ═════════════════════════════════════════════════════════════ */
+.divine-demo-block {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(216, 185, 138, 0.45);
+  text-align: center;
+}
+
+.divine-demo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+
+.divine-demo-spark {
+  color: #D8B98A;
+  font-size: 9px;
+}
+
+.divine-demo-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #806455;
+}
+
+.divine-demo-pills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.divine-demo-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(216, 185, 138, 0.55);
+  border-radius: 100px;
+  padding: 5px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #6B4B3E;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.divine-demo-pill:hover {
+  background: #FFF3E8;
+  border-color: #D8B98A;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(216, 185, 138, 0.3);
+}
+
+.divine-pill-icon {
+  font-size: 11px;
+  color: #D8B98A;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   10. GUEST PILGRIM & SKIP CONTROLS
+   ═════════════════════════════════════════════════════════════ */
+.divine-quick-guest-wrap {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.divine-quick-guest-btn {
+  background: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  color: #8a6857;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.divine-quick-guest-btn:hover {
+  color: #4A2C1D;
+}
+
+.divine-skip-row {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.divine-skip-link {
+  background: none;
+  border: none;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 14.5px;
+  font-weight: 600;
+  font-style: italic;
+  color: #806455;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.divine-skip-link:hover {
+  color: #4A2C1D;
+  transform: translateX(2px);
+}
+
+/* ═════════════════════════════════════════════════════════════
+   11. REGISTRATION ROLE SELECTOR
+   ═════════════════════════════════════════════════════════════ */
+.divine-role-selector {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.divine-role-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 38px;
+  background: #FFFBF7;
+  border: 1.2px solid rgba(216, 185, 138, 0.45);
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6B4B3E;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.divine-role-btn.active {
+  background: #FBE5D8;
+  border-color: #D8B98A;
+  color: #4A2C1D;
+  box-shadow: 0 2px 6px rgba(216, 185, 138, 0.25);
+}
+
+/* ═════════════════════════════════════════════════════════════
+   12. FORGOT PASSWORD DIVINE MODAL
+   ═════════════════════════════════════════════════════════════ */
+.divine-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(92, 61, 46, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 100;
+  animation: divineFade 0.25s ease;
+}
+
+@keyframes divineFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.divine-modal-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  background: #FFF9F5;
+  border: 1.5px solid rgba(216, 185, 138, 0.6);
+  border-radius: 24px;
+  padding: 30px 26px 24px 26px;
+  box-shadow:
+    0 24px 60px rgba(92, 61, 46, 0.25),
+    0 4px 20px rgba(216, 185, 138, 0.35);
+  animation: divineCardScale 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes divineCardScale {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.divine-modal-header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.divine-modal-om {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+  color: #D8B98A;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.divine-modal-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #5C3D2E;
+  margin-bottom: 4px;
+}
+
+.divine-modal-subtitle {
+  font-size: 12.5px;
+  color: #806455;
+  font-family: 'Inter', sans-serif;
+}
+
+.divine-modal-close {
+  position: absolute;
+  top: -8px;
+  right: -6px;
+  background: none;
+  border: none;
+  color: #806455;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.divine-modal-close:hover {
+  color: #4A2C1D;
+}
+
+.divine-modal-note {
+  font-size: 11.5px;
+  color: #806455;
+  background: #FFF3E8;
+  border: 1px solid rgba(216, 185, 138, 0.4);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.divine-modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.divine-modal-cancel {
+  flex: 1;
+  height: 42px;
+  background: #F5E9DC;
+  border: 1px solid rgba(216, 185, 138, 0.5);
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6B4B3E;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.divine-modal-cancel:hover {
+  background: #EAE3F2;
+}
+
+.divine-submit-btn.modal-btn {
+  flex: 1.5;
+  height: 42px;
+  font-size: 15px;
+}
+
+.divine-modal-success {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.divine-success-icon {
+  font-size: 34px;
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.divine-modal-success p {
+  font-size: 13.5px;
+  color: #5C3D2E;
+  margin-bottom: 18px;
+  line-height: 1.45;
+}
+
+/* ═════════════════════════════════════════════════════════════
+   13. RESPONSIVE DESIGN (MOBILE, TABLET, DESKTOP)
+   ═════════════════════════════════════════════════════════════ */
+@media (max-width: 480px) {
+  .divine-login-page {
+    padding: 18px 12px;
+  }
+
+  .divine-login-card {
+    border-radius: 22px;
+    padding: 24px 20px 20px 20px;
+  }
+
+  .divine-om-glyph {
+    font-size: 32px;
+  }
+
+  .divine-logo-container {
+    width: 66px;
+    height: 66px;
+    margin-bottom: 8px;
+  }
+
+  .divine-official-logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  .divine-login-title {
+    font-size: 26px;
+  }
+
+  .divine-login-subtitle {
+    font-size: 13.5px;
+  }
+
+  .divine-input-wrap {
+    height: 42px;
+  }
+
+  .divine-submit-btn {
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+.divine-alert-success {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #E8F5E9;
+  border: 1px solid #A5D6A7;
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: #1B5E20;
+  font-size: 13px;
+  margin-bottom: 16px;
+  animation: divineFadeIn 0.3s ease;
+}
+
+.divine-security-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: #FFFDF7;
+  border: 1px dashed rgba(216, 185, 138, 0.65);
+  border-radius: 9px;
+  padding: 8px 11px;
+  font-size: 11.5px;
+  color: #7A5B49;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  line-height: 1.45;
+}
+
+.divine-security-note-icon {
+  color: #D8B98A;
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+@media (max-height: 640px) {
+  .divine-login-page {
+    padding: 12px 14px;
+  }
+
+  .divine-login-card {
+    padding: 18px 22px;
+  }
+
+  .divine-header-block {
+    margin-bottom: 12px;
+  }
+
+  .divine-om-emblem {
+    margin-bottom: 4px;
+  }
+
+  .divine-logo-container {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 6px;
+  }
+
+  .divine-official-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .divine-field-group {
+    margin-bottom: 9px;
+  }
+
+  .divine-demo-block {
+    margin-top: 10px;
+    padding-top: 8px;
+  }
+}

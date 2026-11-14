@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "6ac526e9510fd149764d05b5",
+    "name": "DivyaBharat Admin",
+    "email": "admin@divyabharat.in",
+    "password": "$2a$12$udNZvIYtFtJ2w5Sk8vb2z.1ao/BEoGABgKOpSmf1uUIIUieyINMA2",
+    "phone": "+91 9876543210",
+    "role": "admin",
+    "location": "New Delhi, India",
+    "profileImage": "",
+    "savedPlaces": [],
+    "isActive": true,
+    "createdAt": "2026-10-06T16:50:49.719Z",
+    "updatedAt": "2026-10-06T16:50:56.913Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac526e9510fd149764d05be",
+    "name": "Dr. Priya Sharma",
+    "email": "teacher@divyabharat.in",
+    "password": "$2a$12$xofMFa7Qw2xRWHsNlIh/Q.OcV4pdeEGCoGAfXLInIZ3YgeL9CT1LW",
+    "phone": "+91 9876543211",
+    "role": "teacher",
+    "location": "Bengaluru, Karnataka",
+    "profileImage": "",
+    "savedPlaces": [],
+    "isActive": true,
+    "createdAt": "2026-10-06T16:50:49.968Z",
+    "updatedAt": "2026-10-06T16:50:49.968Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac526ea510fd149764d05c3",
+    "name": "Arjun Kumar",
+    "email": "student@divyabharat.in",
+    "password": "$2a$12$dmcwrTCp7YJIiIpFdsFbzuqFUUfO1geFpyDur3hpnmXaHOruWx/E6",
+    "phone": "+91 9876543212",
+    "role": "student",
+    "location": "Mumbai, Maharashtra",
+    "profileImage": "",
+    "savedPlaces": [],
+    "isActive": true,
+    "createdAt": "2026-10-06T16:50:50.204Z",
+    "updatedAt": "2026-10-06T16:50:50.204Z",
+    "__v": 0
+  }
+]

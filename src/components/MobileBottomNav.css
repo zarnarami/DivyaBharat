@@ -1,0 +1,102 @@
+/* src/components/MobileBottomNav.css — Native Android Bottom Navigation Bar */
+
+.db-mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: rgba(255, 249, 245, 0.96);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(216, 185, 138, 0.35);
+  box-shadow: 0 -4px 25px rgba(107, 45, 27, 0.08);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Only display on mobile / tablet screens (< 900px) */
+@media (max-width: 900px) {
+  .db-mobile-bottom-nav {
+    display: block;
+  }
+}
+
+.db-mobile-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.db-mobile-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #8c6e63;
+  padding: 6px 12px;
+  border-radius: 12px;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  flex: 1;
+  min-width: 52px;
+}
+
+.db-mobile-tab-icon-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+.db-mobile-tab-icon {
+  font-size: 19px;
+  transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1), color 0.22s ease;
+}
+
+.db-mobile-tab-label {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  transition: color 0.22s ease, font-weight 0.22s ease;
+  white-space: nowrap;
+}
+
+.db-mobile-tab-pill {
+  position: absolute;
+  top: 0;
+  width: 24px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #d88358, #b45309);
+  transition: all 0.3s ease;
+}
+
+/* Active State */
+.db-mobile-tab.active {
+  color: #b45309;
+}
+
+.db-mobile-tab.active .db-mobile-tab-icon {
+  color: #b45309;
+  transform: translateY(-2px) scale(1.1);
+}
+
+.db-mobile-tab.active .db-mobile-tab-label {
+  color: #6b2d1b;
+  font-weight: 700;
+}
+
+.db-mobile-tab:active {
+  transform: scale(0.94);
+}
