@@ -30,6 +30,7 @@ yarn-error.log*
 # Dependencies
 node_modules/
 node_modules.zip
+package-lock-backup.json
 
 # Build files
 dist/

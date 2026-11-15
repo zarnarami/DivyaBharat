@@ -23,7 +23,7 @@ export function MusicProvider({ children }) {
 
   // Initialize singleton audio element with peaceful Om chanting
   useEffect(() => {
-    const audio = new Audio('/audio/om-chant.wav');
+    const audio = new Audio((process.env.PUBLIC_URL || '') + '/audio/om-chant.wav');
     audio.loop = true;
     audio.preload = 'auto';
     audio.volume = 0; // Starts at 0 for smooth fade-in

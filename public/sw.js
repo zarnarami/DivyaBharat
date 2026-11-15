@@ -1,14 +1,14 @@
 // public/sw.js — DivyaBharat Progressive Web App Service Worker
 const CACHE_NAME = 'divyabharat-v1';
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/favicon.ico',
-  '/logo192.png',
-  '/logo512.png',
-  '/maskable-icon-512.png',
-  '/apple-touch-icon.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './favicon.ico',
+  './logo192.png',
+  './logo512.png',
+  './maskable-icon-512.png',
+  './apple-touch-icon.png'
 ];
 
 // Install: Cache essential shell assets
@@ -61,7 +61,8 @@ self.addEventListener('fetch', (event) => {
         .catch(async () => {
           const cachedResponse = await caches.match(request);
           if (cachedResponse) return cachedResponse;
-          return caches.match('/index.html');
+          const fallback = await caches.match('./index.html');
+          return fallback || fetch(request);
         })
     );
     return;

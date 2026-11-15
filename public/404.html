@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>DivyaBharat — Redirecting...</title>
+    <script>
+      // Single Page Application redirect for GitHub Pages
+      (function () {
+        var base = '/DivyaBharat/';
+        var path = window.location.pathname;
+        if (path.indexOf(base) === 0) {
+          var route = path.substring(base.length);
+          var redirectUrl = base + '#/' + route + window.location.search + window.location.hash;
+          window.location.replace(redirectUrl);
+        } else {
+          window.location.replace(base);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/DivyaBharat/">DivyaBharat</a>...</p>
+  </body>
+</html>
